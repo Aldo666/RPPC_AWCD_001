@@ -1,0 +1,9 @@
+<?php
+
+$sql = "SELECT num FROM x WHERE num < 10";
+        $result = mysql_query($sql, Conexion::conectar());
+
+$sql = "UPDATE x SET num = '$nombre' WHERE num < 10 ";
+        $result =mysql_query($sql, Conexion::conectar());
+
+    ?>

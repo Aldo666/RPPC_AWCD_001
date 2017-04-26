@@ -1,0 +1,56 @@
+fieldset {
+    border-radius: 1em;
+    background: #2E2E2E;
+    padding: 1em;
+    margin: 0.5em auto;
+    max-width: 380px;
+}
+
+form {
+    color: white;
+    margin: 0.5em auto;
+    padding: 0.25em;
+    width: 95%;
+}
+
+form label {
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+    margin: 0.25em auto;
+    width: 98%;
+    text-align: left;
+    text-shadow: 4px 4px 5px white;
+}
+
+form div{
+    margin: 0.25em auto;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"], input[type="tel"] {
+	border-radius: 0.35em;
+	border: 1px solid #333;
+        font-size: 1.8em;
+        margin: 0.25em auto;
+	width: 98%;
+}
+
+input[type="submit"], input[type="radio"]{
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background: #848484;
+    border-radius: 0.35em;
+    color: white;
+    font-size: 2em;
+    width: 50%;
+}
+
+input[type="submit"]:hover{
+    background: #F2F2F2;
+    border-radius: 0.35em;
+    color: #151515;
+    font-size: 2em;
+    
+}

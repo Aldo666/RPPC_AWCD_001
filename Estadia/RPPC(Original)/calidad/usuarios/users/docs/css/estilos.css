@@ -1,0 +1,204 @@
+/* AUTOR: LR_Franck */
+charset "utf-8";
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background: #006600;
+    color: black;
+    font-size: 0.5em;
+
+
+}
+
+#wrapper{
+background: #FFF;
+border-radius: 0.5em;
+box-shadow: 8px 8px 10px gray;
+margin: 0.5em auto;
+max-width: 960px;
+padding: 0.25em;
+text-align: center;
+}
+
+header{
+    background-color: #FFF;
+    border-radius: 1em;
+    box-shadow: 8px 8px 10px gray;
+    margin: 1em auto;
+    max-width: 960px;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav{
+    background: #CC0000;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: auto;
+    max-width: 960px;
+    padding: 0;
+    width: 100%;
+}
+
+nav h1{
+    color: white;
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 5px 5px 10px gray;
+    
+}
+
+nav ul{
+    border-radius: 0.25em;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    border-radius: 0.25em;
+    color: #FFF;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 1em;
+    line-height: 25px;
+    vertical-align: middle;
+    text-decoration: none;    
+}
+
+nav a:hover{
+    background: #FFF;
+    color: black;
+}
+
+footer{
+background: #CC0000;
+border-radius: 0.5em;
+margin: 0.5em auto;
+max-width: 960px;
+padding: 0.25em;
+text-align: center;
+}
+
+#txtfooter{
+color: white;
+font-size: 1.25em;
+}
+ 
+section#contenedor{
+background: #FDF1DB;
+border-radius: 0.5em;
+margin: 0.5em auto;
+max-width: 960px;
+padding: 2em;
+text-align: center;
+}
+
+section p{
+margin: 10px 10px 10px 10px;
+font-weight: bold;
+font-size: 3em;
+padding: 0;
+text-align: left;
+text-shadow: 4px 4px 5px gray;
+}
+
+section#slideindex{
+    background: white;
+    border:2px solid black;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 25px gray;
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0.5em;
+    width: 80%;
+}
+
+section#slideindex h1{
+    width: 98%;
+}
+
+section#slideindex_cong{
+    background: white;
+    border:2px solid black;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 25px gray;
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0.5em;
+    width: 98%;
+}
+
+section#slideindex h1{
+    width: 98%;
+}
+section#slideindex_ed{
+    background: white;
+    border:2px solid black;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 25px gray;
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0.5em;
+    width: 98%;
+}
+
+section#slideindex h1{
+    width: 98%;
+}
+section#bienvenida{
+margin: 0.5em auto;
+max-width: 960px;
+padding: 0.25em;
+}
+
+article, aside{
+background: #FFF;
+border:2px solid black;
+border-radius: 0.5em;
+box-shadow: 10px 10px 25px gray;
+display: inline-block;
+max-width: 960px;
+padding: 0.25em;
+text-align: justify;
+vertical-align: top;
+}
+
+section h1, article h1{
+background-color:#CC0000;
+border-radius: 0.25em;
+color: white;
+display: block;
+font-size: 3em;
+margin: 0.5em auto;
+text-align: center;
+}
+
+table#docs{
+    font-size: 1.5em;
+    margin: 0.5em auto;
+    max-width: 960px;
+    width: 95%;
+}
+th{
+    text-align: left;
+}
+td{
+    text-align: left;
+}
